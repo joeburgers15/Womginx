@@ -79,7 +79,7 @@ sudo certbot --nginx certonly -n -d yourdomain.com
 ## Part 2 of installation ##
 
 # 1. clone repo and wombat submodule
-git clone --recursive https://github.com/binary-person/womginx
+git clone --recursive https://github.com/Brandon421-ops/Womginx
 
 # 2. build wombat
 cd womginx/public/wombat
@@ -90,8 +90,8 @@ npm run build-prod
 cd .. # cd into public folder
 sed -i -e 's/womginx.arph.org/yourdomain.com/g' ../nginx.conf
 
-# 4. replace '/home/binary/womginx/public' with your public folder
-sed -i -e "s/\/home\/binary\/womginx\/public/$(pwd | sed -e 's/\//\\\//g')/g" ../nginx.conf
+# 4. replace '/home/Brandon421-ops/Womginx/public' with your public folder
+sed -i -e "s/\/home\/Brandon421-ops\/Womginx\/public/$(pwd | sed -e 's/\//\\\//g')/g" ../nginx.conf
 
 # 5. make backup of original nginx.conf
 sudo cp /etc/nginx/nginx.conf /etc/nginx/nginx.conf.backup
