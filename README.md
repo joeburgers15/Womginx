@@ -2,13 +2,36 @@
 
 > Fastest proxy using only nginx as the backend server
 
-<a href="https://repl.it/github/Brandon421-ops/Womginx"><img src="https://docs.replit.com/images/repls/run-on-replit.svg" alt="Replit" width="150"/></a>
+# Deployment
 
-**Before you deploy to Heroku, read the following: Heroku decided that this repository violates the ToS, so directly clicking the button below if you're in the main repository will result in an error. Forked repositories may work, though this is not guaranteed. Regardless, I am NOT responsible if your Heroku account gets suspended because of deploying this application. Proceed at your own risk.**
+Table of contents
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+- Quick & easy deployment
+- Deployment configuration explaination
+- how to use email OTP Verification mode
+- Advanced Deployment
+- Filesystem
+- Works For School/Home Computers
 
-Demo: https://womginx.arph.org
+## Quick & Easy Deployment Options
+
+[![Deploy to Heroku](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/Brandon421-ops/Womginx)
+<br>
+[![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/Brandon421-ops/Womginx)
+<br>
+[![Deploy to IBM Cloud](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/ibmcloud.svg)](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/Brandon421-ops/Womginx)
+<br>
+[![Deploy to Amplify Console](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/amplifyconsole.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/Brandon421-ops/Womginx)
+<br>
+[![Run on Google Cloud](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/googlecloud.svg)](https://deploy.cloud.run/?git_repo=https://github.com/Brandon421-ops/Womginx)
+<br>
+[![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://railway.app/new/template/pBzeiN)
+<br>
+[![Deploy To Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Brandon421-ops/Womginx&branch=main&name=Womginx)
+<br>
+[![Deploy to Render](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/main/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/Brandon421-ops/Womginx)
+<br>
+[![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/Brandon421-ops/Womginx)
 
 ~~Heroku Docker demo: https://womginx.herokuapp.com~~ taken down for now. If you need one, deploy one using the button above or use the demo link.
 
